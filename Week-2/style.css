@@ -35,10 +35,8 @@ nav a:hover {
 
 .about {
   flex: 1 0 0;
-  padding: 50px;
-  display: flex;
-  flex-wrap: wrap;
-  justify-content: space-evenly;
+  padding: 10px;
+
   text-align: center;
   border-style: solid;
   border-width: 1px;
@@ -56,6 +54,9 @@ nav a:hover {
       text-align: center;
       border-style: solid;
       border-width: 1px;
+      display: flex;
+      flex-wrap: wrap;
+      justify-content: space-evenly;
     }
     
 .Work header{
@@ -63,6 +64,8 @@ nav a:hover {
         background: #FA8072;
         color: #fff;
     }
+
+
 
 .Contact {
         flex: 1 0 0;
