@@ -63,12 +63,63 @@ nav a:hover {
         padding: 20px;
         background: #FA8072;
         color: #fff;
+
     }
 
-
 .pic1{
-    
+position:relative;
+width:50%;
 }
+
+.pic1 img{
+    width:100%;
+    height:auto;
+
+}
+
+.pic2{
+    position:relative;
+    width:50%;
+    }
+
+.pic2 img{
+    width:100%;
+    height:auto;
+
+}
+
+.pic3{
+        position:relative;
+        width:50%;
+        }
+
+.pic3 image{
+    width:100%;
+    height:auto;
+}
+
+.btn{
+    position: absolute;
+    top:50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    -ms-transform: translate(-50%, -50%);
+    background-color: #EAC5EB;
+    color:white;
+    font-size: 16px;
+    padding:12px 24px;
+    border: none;
+    cursor: pointer;
+    border-radius: 5px;
+
+
+}
+
+.btn:hover {
+    background-color: black;
+}
+
+
 
 .Contact {
         flex: 1 0 0;
