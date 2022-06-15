@@ -62,7 +62,7 @@ nav a:hover {
     }
     
 .Work header{
-    display:block;
+  width:100%;
         padding: 20px;
         background: #FA8072;
         color: #fff;
@@ -76,25 +76,29 @@ width: 60%
 }
 
 .pic1 img{
+    padding: 5%;
     height:auto;
     width: 100%;
 
 }
 
 .pic2{
-    position:relative;
-    float:left;
-
+    position: relative;
     width:50%;
-    padding: 5px;
+    float:left;
+    
+   
     }
 
 .pic2 img{
     
+   
     width:50%;
     height:auto;
+    
 
 }
+
 
 
 
@@ -106,7 +110,7 @@ width: 60%
     -ms-transform: translate(-50%, -50%);
     background-color: #EAC5EB;
     color:white;
-    font-size: 16px;
+    font-size: 10px;
     padding:12px 24px;
     border: none;
     cursor: pointer;
@@ -135,3 +139,10 @@ width: 60%
             color: #fff;
         }
 
+        @media screen and (max-width: 768px) {
+            main,
+            nav {
+              flex-direction: column;
+            }
+          }
+          
