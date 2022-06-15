@@ -33,15 +33,18 @@ nav a:hover {
 
 }
 
-.AboutMe {
+.about {
   flex: 1 0 0;
-  padding: 10px;
+  padding: 50px;
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: space-evenly;
   text-align: center;
   border-style: solid;
   border-width: 1px;
 }
 
-.AboutMe header{
+.about header{
     padding: 20px;
     background: #FA8072;
     color:#fff;
