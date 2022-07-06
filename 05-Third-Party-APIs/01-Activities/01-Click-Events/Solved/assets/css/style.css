@@ -1,0 +1,31 @@
+main {
+  margin: 3rem auto;
+  max-width: 90vw;
+  width: 50ch;
+}
+
+pre:hover {
+  user-select: all;
+  -moz-user-select: all;
+  -webkit-user-select: all;
+}
+
+.form {
+  display:grid;
+  /* make two columns*/
+  grid-template-columns: auto auto;
+  row-gap: 1rem;
+  column-gap: 3rem;
+  justify-content: center;
+  align-items: center;
+
+}
+.charactercontainer{
+  display: flex;
+  align-items: center;
+}
+
+.numberinput{
+  width:3rem;
+}
+
